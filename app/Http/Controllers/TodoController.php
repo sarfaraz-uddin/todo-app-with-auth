@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class TodoController extends Controller
 {
-    //
+    
     public function dashboard()
     {
         return view('dashboard',['list'=>todo::all()]);
